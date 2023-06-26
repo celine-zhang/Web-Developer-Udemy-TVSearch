@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>TV Search</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+
+  <body>
+    <section>
+      <div class="container has-background-grey-light">
+        <div class="columns">
+          <div class="column is-half is-offset-one-quarter">
+            <h1 class="title is-1 has-text-centered">TV Shows Search</h1>
+
+            <form id="searchForm">
+              <div class="field">
+                <label class="label">Search Your TV Shows</label>
+                <div class="control">
+                  <input
+                    class="input"
+                    type="text"
+                    placeholder="TV Show Title"
+                    name="query"
+                  />
+                </div>
+              </div>
+              <div class="field is-grouped">
+                <div class="control">
+                  <button class="button is-link">Search</button>
+                </div>
+              </div>
+            </form>
+            <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+            <script src="app.js"></script>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
